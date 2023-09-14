@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 1px;
+    padding: 0;
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: burlywood;
+    /*overflow-y: scroll;*/
+}
+
+.Header{
+    background-color: saddlebrown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+/* Logo */
+.Header .logo{
+    cursor: pointer;
+}
+
+.Header .logo img{
+    height: 75px;
+    width: 110px;
+    transition: all 0.3s;
+    margin-bottom: -4%;
+    border-radius: 10%;
+}
+
+.Header .logo img :hover{
+    transform: scale(1.2);
+}
+
+/* Links */
+.Header .nav-links :hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.Header .nav-links{
+    list-style: none;
+}
+
+.Header .nav-links li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.Header .nav-links a{
+
+    color: burlywood;
+    text-decoration: none;
+}
+
+.Header .nav-links li a:hover{
+    color: rgb(57, 35, 6);
+}
+
+
+/* -- Hero -- */
+
+main {
+    background: linear-gradient(saddlebrown,burlywood);
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    color: black ;
+    width: 100%;
+}
+
+#hero {
+    margin-top: 50px;
+    padding: 50px 0;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-info a {
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 17px;
+    color: white;
+    background-color: saddlebrown;
+    padding: 5px 8px;
+    width: 300px;
+    text-align: center;
+}
+
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.hero-info h1 {
+    font-size: 30px;
+    width: 95%;
+    font-weight: 900;
+    color:cornsilk ;
+}
+
+.hero-info p {
+    font-size: 16px;
+}
+
+.img {
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* --- Texto Info --- */
+
+#text {
+    text-align: center;
+    max-width: 700px;
+    margin-top: 50px;
+    padding: 60px;
+}
+
+.text-info h2 {
+    margin: 20px;
+    text-decoration: underline
+}
+
+.info-list {
+    margin: 20px;
+}
+
+.info-list li {
+    margin: 30px;
+}
+
