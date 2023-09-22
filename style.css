@@ -114,7 +114,7 @@ main {
 }
 
 .hero-info p {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .img {
@@ -138,7 +138,8 @@ main {
 
 .text-info h2 {
     margin: 20px;
-    text-decoration: underline
+    text-decoration: underline;
+    font-size: 30px;
 }
 
 .info-list {
@@ -149,3 +150,87 @@ main {
     margin: 30px;
 }
 
+
+/* --- Cards info cafeteria ---*/
+
+#cards {
+    padding: 50px 0;
+    max-width: 1200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap:80px;
+}
+
+.titulo {
+    margin: 20px;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.info-cards-cafe {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap:20px;
+}
+
+.info-cards {
+    width: 300px;
+    height: 540px;
+    padding: 40px 30px;
+    
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    background-color: saddlebrown;
+    border-radius: 10px;
+    gap: 20px;
+    
+}
+
+.imagen {
+    width: 300px;
+}
+
+.parrafo {
+    color: burlywood;
+}
+
+
+/* --- Footer --- */
+
+#footer {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer-links h2 {
+    margin: 20px;
+    text-decoration: underline;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+
+.iconos {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    padding:20px 0;
+    gap: 20px;
+}
+
+
+/* --- redes sociales -- */
+
+.redes-sociales {
+    display: flex;
+}
